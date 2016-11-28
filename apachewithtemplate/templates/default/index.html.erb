@@ -1,0 +1,9 @@
+<html>
+<body>
+	<h1>Hello My node is <%= node["fqdn"] %></h1>
+	<p>
+	   My node has <%= node["memory"]["total"].to_i / 1024 %> MB memory.
+	</p>
+</body>
+</html>
+
